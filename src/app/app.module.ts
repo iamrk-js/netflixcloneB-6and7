@@ -9,6 +9,7 @@ import { MainSliderComponent } from './shared/component/main-slider/main-slider.
 import { NavbarComponent } from './shared/component/navbar/navbar.component';
 import { MovieDetailsComponent } from './shared/component/movie-details/movie-details.component';
 import { MoviesDashboardComponent } from './shared/component/movies-dashboard/movies-dashboard.component';
+import { MaterialModule } from './shared/material/material.module';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { MoviesDashboardComponent } from './shared/component/movies-dashboard/mo
     AppRoutingModule,
     BrowserAnimationsModule,
     CarouselModule,
-    HttpClientModule
+    HttpClientModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

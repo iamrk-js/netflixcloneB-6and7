@@ -20,7 +20,10 @@ export class MainSliderComponent implements OnInit {
     dots: true,
     navSpeed: 700,
     navText: ['<<', '>>'],
+    // navText: ['&#8249', '&#8250'],
     autoplay: true,
+    animateIn : 'fadeIn',
+    animateOut : 'fadeOut',
     responsive: {
       0: {
         items: 1,
