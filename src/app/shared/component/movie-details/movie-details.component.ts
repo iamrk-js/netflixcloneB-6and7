@@ -14,7 +14,7 @@ export class MovieDetailsComponent implements OnInit {
   movieId!: string;
   moviedetails!: Imovies;
   movieTrailers : Array<Itrailer> = [];
-  trailerUrl !: SafeResourceUrl
+  // trailerUrl !: SafeResourceUrl
   constructor(
     private _route: ActivatedRoute,
     private _moviesService: MoviesService,
@@ -40,10 +40,10 @@ export class MovieDetailsComponent implements OnInit {
     });
   }
 
-  runTrailer(key:string){
-    console.log(key)
-    let url = `https://www.youtube.com/embed/${key}`;
+  // runTrailer(key:string){
+  //   console.log(key)
+  //   let url = `https://www.youtube.com/embed/${key}`;
 
-    this.trailerUrl = this._sanitizier.bypassSecurityTrustResourceUrl(url)
-  }
+  //   this.trailerUrl = this._sanitizier.bypassSecurityTrustResourceUrl(url)
+  // }
 }

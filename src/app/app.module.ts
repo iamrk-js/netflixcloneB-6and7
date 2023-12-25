@@ -10,6 +10,9 @@ import { NavbarComponent } from './shared/component/navbar/navbar.component';
 import { MovieDetailsComponent } from './shared/component/movie-details/movie-details.component';
 import { MoviesDashboardComponent } from './shared/component/movies-dashboard/movies-dashboard.component';
 import { MaterialModule } from './shared/material/material.module';
+import { OverviewComponent } from './shared/component/overview/overview.component';
+import { EmbedvideoComponent } from './shared/component/embedvideo/embedvideo.component';
+import { MoviePhotosComponent } from './shared/component/movie-photos/movie-photos.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { MaterialModule } from './shared/material/material.module';
     MainSliderComponent,
     NavbarComponent,
     MovieDetailsComponent,
-    MoviesDashboardComponent
+    MoviesDashboardComponent,
+    OverviewComponent,
+    EmbedvideoComponent,
+    MoviePhotosComponent
   ],
   imports: [
     BrowserModule,
